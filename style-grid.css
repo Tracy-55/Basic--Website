@@ -27,6 +27,7 @@ header img {
 }
 
 .subject, .place {
+    flex: 1 1 30%;
     text-align: center;
 }
 
