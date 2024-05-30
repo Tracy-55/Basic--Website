@@ -1,11 +1,13 @@
-body {
-    background-image: url("C:\Users\kelly\Downloads\background.jpg");
+body{
+    background-color:#ad336d;
+
 }
+    
 
 header, section {
     padding: 20px;
-    border-bottom: 5px solid #43b692;
-    background-color: aquamarine;
+    border-bottom: 5px solid #13fdb3;
+    background-color: rgb(21, 215, 150);
 }
 
 .side-bar{
