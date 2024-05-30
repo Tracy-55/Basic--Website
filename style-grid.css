@@ -33,7 +33,7 @@ header img {
     text-align: center;
 }
 
-@media (max-width:300px) {
+@media (max-width:100x) {
     .grid {
         grid-template-columns: 1fr;
     }
