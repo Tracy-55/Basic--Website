@@ -1,0 +1,61 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: aqua;
+}
+
+@media (min-width:600px) {
+    body {
+        background-color: beige;
+    }
+}
+
+@media (min-width:960px){
+    body{
+        background-color: antiquewhite;
+    }
+}
+
+.box{
+    border:2px solid blueviolet;
+    width: 15px;
+    padding: 2em 1em 0em;
+
+}
+
+h1 {
+    background-color: peru;
+    padding: 1em;
+    border-radius: 1%;
+
+} 
+
+h2 {
+    background-color: lightcoral;
+}
+
+span{
+    border: 2px solid;
+    background-color: lightsalmon;
+    padding: 2em;
+    margin: 2em;
+}
+
+.input{
+    margin: 2em;
+}
+
+.link{
+    background-color:lightcoral ;
+    width: 15em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    
+}
+
+.link:hover{
+    background-color:darkgreen ;
+}
