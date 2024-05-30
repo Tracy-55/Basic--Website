@@ -5,17 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Webpage - Simple Grid</title>
     <link rel="stylesheet" href="simple-grid.css">
+
+    <style>
+.col-4 {
+    background-color: aquamarine;
+}
+</style>
+
 </head>
 <body>
+
+    <div class="container">
+
     <header>
         <h1>Tracy Marutla</h1>
+
+        <div class="row">
+            <div class="col-4">
         <p>Hi! My name is Tracy, a name worth a thousand conversations.</p>
         <img src="C:\Users\kelly\Downloads\Photo 1.jpeg" width="300"  alt="Your Photo with Table Mountain">
     </header>
 
     <section class="city">
         <h2>Berlin</h2>
-        <div class="grid">
+        <div class="row">
+            <div class="col-4">
             <img src="C:\Users\kelly\Downloads\Berlin.jpg" width="300" alt="City Photo">
             <p>Berlin is one of the few cities that is home to three UNESCO World Heritage Sites.
                 In addition to the famous Museumsinsel (Museum Island) and the Prussian palaces and gardens
@@ -26,6 +40,9 @@
 
     <section class="language">
         <h2>A Foreign Language</h2>
+
+        <div class="row">
+            <div class="col-4">
         <p>I would like to learn <em>German</em> because its an exotic language.</p>
         <table>
             <thead>
@@ -47,8 +64,10 @@
 
     <section class="subjects">
         <h2>Favourite Subjects</h2>
+
+        <div class="row">
         <p>Accenture 4IR WRP</p>
-        <div class="grid">
+        <div class="col-4">
             <div class="Agile Rapid Knowledge Acquisition">
                 <img src= "C:\Users\kelly\Downloads\Agile-Testing.avif" width="400" alt="Subject 1">
                 <p>Agile Acquisition” as “acquisition using agile or iterative development.” 
@@ -57,12 +76,14 @@
                     rapid, incremental capabilities to the user for operational use, evaluation, and feedback.</p>
             </div>
             <div class="Full Stack Web Development">
+               <div class="col-4">
                 <img src="C:\Users\kelly\Downloads\full-stack-web-development.jpg" width="400"  alt="Subject 2">
                 <p>It is process of developing both the frontend and backend of applications.
                     Any application has a frontend (user-facing) component and a backend (database and logic) component. 
                    The frontend contains the user interface and code related to user interactions with the application.</p>
             </div>
             <div class="4IR Advanced Bootcamp">
+                <div class="col-4">
                 <img src="C:\Users\kelly\Downloads\4ir.jpg" width="400" alt="Subject 3">
                 <p>The 4IR Bootcamp initiative is tailored specifically to align career choices
                     and studies of individuals to growing industries, relatively new.</p>
@@ -72,18 +93,20 @@
 
     <section class="historical-places">
         <h2>Historical Places in Berlin</h2>
-        <div class="grid">
+        <div class="col-4">
             <div class="Reichstag Building">
                 <img src="C:\Users\kelly\Downloads\reichstag B.jpg" width="400" alt="Place 1">
                 <p>The Reichstag a historic legislative government building on Platz der Republik in Berlin, is the seat of the German Bundestag</p>
             </div>
             <div class="place">
+                <div class="col-4">
                 <img src= "C:\Users\kelly\Downloads\Berlin cathedral.jpg" width="400" alt="Place 2">
                 <p>During the Second World War, the Berlin Cathedral was severely damaged.
                     A liquid fire bomb turned the main nave and the Hohenzollern crypt into ruins. 
                    The reconstruction of the church first 30 years later, during GDR times.</p>
             </div>
             <div class="Museum Island">
+                <div class="col-4">
                 <img src="C:\Users\kelly\Downloads\museum island.jpg" width="400" alt="Place 3">
                 <p>Pergamon Museum: great works of art, spanning 6,000 years of history. 
                     Every year, well over two million visitors flock to the Museum Island. 
