@@ -43,7 +43,7 @@ header img {
 
 @media (max-width: 800px) {
     .flex-container {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 }
