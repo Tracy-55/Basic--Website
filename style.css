@@ -1,61 +1,146 @@
-body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    background-color: aqua;
+header {
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #ffab40;
 }
 
-@media (min-width:600px) {
+h1.Name {
+    font-size: 36px;
+    margin: 0;
+    color: #ffab40;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+}
+
+h2, h3, h4 {
+    color: #ffab40;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.card-image img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-content p {
+    color: #000;
+}
+
+table.highlight th, table.highlight td {
+    border: 1px solid #ffab40;
+}
+
+table.highlight th {
+    background-color: #ffab40;
+    color: #000;
+}
+
+table.highlight td {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+    header p {
+        font-size: 16px;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 600px) {
     body {
         background-color: beige;
     }
 }
 
-@media (min-width:960px){
-    body{
+@media (min-width: 960px) {
+    body {
         background-color: #243748;
     }
 }
 
-.box{
-    border:2px solid blueviolet;
-    width: 15px;
-    padding: 2em 1em 0em;
+/* Additional elements */
+.link {
+    background-color: lightcoral;
+    width: auto;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
 
+.link:hover {
+    background-color: darkgreen;
+}
+
+.input {
+    margin: 2em 0;
+    padding: 0.5em;
+    border: 2px solid #ffab40;
+    border-radius: 0.5em;
+    width: 100%;
+}
+
+.box {
+    border: 2px solid blueviolet;
+    padding: 2em;
+    margin: 1em 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
 }
 
 h1 {
     background-color: peru;
     padding: 1em;
-    border-radius: 1%;
-
-} 
+    border-radius: 8px;
+    color: #fff;
+}
 
 h2 {
     background-color: lightcoral;
+    padding: 0.5em;
+    border-radius: 8px;
+    color: #fff;
 }
 
-span{
-    border: 2px solid;
+span {
+    border: 2px solid #ffab40;
     background-color: lightsalmon;
-    padding: 2em;
-    margin: 2em;
-}
-
-.input{
-    margin: 2em;
-}
-
-.link{
-    background-color:lightcoral ;
-    width: 15em;
-    margin: 1em;
     padding: 1em;
-    border-radius: 0.5em;
-    
-}
-
-.link:hover{
-    background-color:darkgreen ;
+    margin: 1em 0;
+    display: inline-block;
+    border-radius: 8px;
 }
